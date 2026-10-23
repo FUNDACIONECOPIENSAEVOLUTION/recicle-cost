@@ -24,3 +24,12 @@ La página distingue **Cali, Tuluá, Buga, Palmira, Cartago, Zarzal, Yumbo y Jam
 
 ## Registro de cambios
 - **v1.2.0**: identidad institucional real, una tabla maestra empresarial, base de evidencia por observación, comparación Gemini/DeepSeek y precios separados por municipio del Valle del Cauca.
+
+## Comparación interurbana v1.3.1 — módulo añadido sin eliminación
+- Cuatro familias: cartón, papel, PET y chatarra. Grados como cristal, verde, ámbar, archivo blanco, plegadiza, ferrosa pesada/liviana.
+- Cinco ciudades: Bogotá, Medellín, Cali, Barranquilla y Cúcuta. Filtro por etapa (compra/venta), año, municipio y calidad.
+- [CSV comparativo](./datos/comparacion_precios_ciudades_2026_v1_3_0.csv): mínimo, intermedio aritmético = (mínimo + máximo) / 2, máximo, amplitud, URL de origen y cautelas.
+- En intervalos, el gráfico destaca mínimo→intermedio y separa intermedio→máximo; un solo precio no se transforma artificialmente en rango.
+- El informe de Barranquilla es una propuesta de proyecto disponible en 2023; el estudio de Cúcuta corresponde a 2017. Se etiquetan y se pueden filtrar sin atribuirles vigencia actual.
+- Referencias fechadas 2025 y 2026: carta de asociación a colegio en Bogotá (oferta, no operación comprobada), reportaje de Medellín/Recimed marzo 2026 (promedio pagado a recicladores), precio publicado por comprador en Cali 2026 (sujeto a negociación). La chatarra de Cúcuta publicada por un comprador carece de fecha de actualización.
+- **v1.3.1** corrige un error de renderizado detectado al validar la sintaxis del módulo de escala; el archivo JavaScript completo se vuelve a analizar antes del cierre del cambio.
